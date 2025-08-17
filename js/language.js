@@ -63,359 +63,6 @@ const translations = {
     "Terms & Conditions": "শর্তাবলী",
     "Return & Refund Policy": "রিটার্ন এবং রিফান্ড নীতি",
     "Trade License": "ট্রেড লাইসেন্স",
-    
-    // Navigation
-    "Home": "হোম",
-    "Collections": "সংগ্রহ",
-    "Stories": "গল্প",
-    "Contact": "যোগাযোগ",
-    "About Us": "আমাদের সম্পর্কে",
-    
-    // Testimonial and Blog Section Headers
-    "What our customer says": "আমাদের গ্রাহকরা যা বলে",
-    "Featured blog": "নির্বাচিত ব্লগ",
-    
-    // Customer Testimonials
-    "I have to admit your garlic mayo and naga sauce oh my my too good…taste kore i felt like ami eta sudhui kichu chara kheye feli….mashAllah subhanAllah taste….thank you sooooo much.": "আমাকে স্বীকার করতে হবে আপনার গার্লিক মেয়ো এবং নাগা সস আহা খুব ভালো...স্বাদ করে আমি অনুভব করলাম যেন আমি এটা শুধু কিছু ছাড়া খেয়ে ফেলি....মাশাআল্লাহ সুবহানাল্লাহ স্বাদ....অনেক ধন্যবাদ।",
-    "I am a fan of your alu bukhara pickle. Tastes too good!": "আমি আপনার আলুবুখারা আচারের একজন ভক্ত। স্বাদ খুব ভালো!",
-    "Best pickle in town ❤": "শহরের সেরা আচার ❤",
-    "Ei Naga chili dip ta ekdom next level! First, I get the flavor, then the real Naga heat kicks later. Love it!": "এই নাগা চিলি ডিপটা একদম নেক্সট লেভেল! প্রথমে, আমি স্বাদটা পাই, তারপর আসল নাগার ঝাল পরে লাগে। দারুণ লাগে!",
-    "Student": "শিক্ষার্থী",
-    "Digital Content Creator": "ডিজিটাল কনটেন্ট ক্রিয়েটর",
-    "Job Holder": "চাকরিজীবী",
-    
-    // Blog elements
-    "March 17, 2025": "১৭ মার্চ, ২০২৫",
-    "By Md Saif Anwar": "লিখেছেন মোঃ সাইফ আনোয়ার",
-    "Read more": "আরও পড়ুন",
-    
-    // Navigation controls
-    "Previous": "পূর্ববর্তী",
-    "Next": "পরবর্তী",
-    "Pause slideshow": "স্লাইডশো থামান",
-    "Play slideshow": "স্লাইডশো চালু করুন",
-    
-    // Features Section
-    "Loved by": "পছন্দ করেন",
-    "Used daily by": "প্রতিদিন ব্যবহার করেন",
-    "Best Sellers": "সেরা বিক্রেতা",
-    "Deals of the Week": "সপ্তাহের অফার",
-    
-    // Product Options
-    "Choose options": "অপশন বেছে নিন",
-    "Add to Cart": "কার্টে যোগ করুন",
-    "Options": "অপশন",
-    "Size": "আকার",
-    "Quantity": "পরিমাণ",
-    "Price:": "মূল্য:",
-    
-    // Footer Elements
-    "Ammur Achar is primarily an online-based food brand, but we also have a physical store located at Gulshan.": "আম্মুর আচার প্রাথমিকভাবে একটি অনলাইন ভিত্তিক খাদ্য ব্র্যান্ড, তবে আমাদের গুলশানে একটি ভৌত দোকানও রয়েছে।",
-    "Our Stories": "আমাদের গল্পসমূহ",
-    "DBID No: 317724393": "ডিবিআইডি নং: ৩১৭৭২৪৩৯৩",
-    "Footer links": "ফুটার লিংক",
-    "Terms & Conditions": "শর্তাবলী",
-    "Return & Refund Policy": "রিটার্ন এবং রিফান্ড নীতি",
-    "Trade License": "ট্রেড লাইসেন্স",
-    
-    // Navigation
-    "Home": "হোম",
-    "Collections": "সংগ্রহ",
-    "Stories": "গল্প",
-    "Contact": "যোগাযোগ",
-    "About Us": "আমাদের সম্পর্কে",
-    
-    // Testimonial and Blog Section Headers
-    "What our customer says": "আমাদের গ্রাহকরা যা বলে",
-    "Featured blog": "নির্বাচিত ব্লগ",
-    
-    // Customer Testimonials
-    "I have to admit your garlic mayo and naga sauce oh my my too good…taste kore i felt like ami eta sudhui kichu chara kheye feli….mashAllah subhanAllah taste….thank you sooooo much.": "আমাকে স্বীকার করতে হবে আপনার গার্লিক মেয়ো এবং নাগা সস আহা খুব ভালো...স্বাদ করে আমি অনুভব করলাম যেন আমি এটা শুধু কিছু ছাড়া খেয়ে ফেলি....মাশাআল্লাহ সুবহানাল্লাহ স্বাদ....অনেক ধন্যবাদ।",
-    "I am a fan of your alu bukhara pickle. Tastes too good!": "আমি আপনার আলুবুখারা আচারের একজন ভক্ত। স্বাদ খুব ভালো!",
-    "Best pickle in town ❤": "শহরের সেরা আচার ❤",
-    "Ei Naga chili dip ta ekdom next level! First, I get the flavor, then the real Naga heat kicks later. Love it!": "এই নাগা চিলি ডিপটা একদম নেক্সট লেভেল! প্রথমে, আমি স্বাদটা পাই, তারপর আসল নাগার ঝাল পরে লাগে। দারুণ লাগে!",
-    "Student": "শিক্ষার্থী",
-    "Digital Content Creator": "ডিজিটাল কনটেন্ট ক্রিয়েটর",
-    "Job Holder": "চাকরিজীবী",
-    
-    // Blog elements
-    "March 17, 2025": "১৭ মার্চ, ২০২৫",
-    "By Md Saif Anwar": "লিখেছেন মোঃ সাইফ আনোয়ার",
-    "Read more": "আরও পড়ুন",
-    
-    // Navigation controls
-    "Previous": "পূর্ববর্তী",
-    "Next": "পরবর্তী",
-    "Pause slideshow": "স্লাইডশো থামান",
-    "Play slideshow": "স্লাইডশো চালু করুন",
-    
-    // Features Section
-    "Loved by": "পছন্দ করেন",
-    "Used daily by": "প্রতিদিন ব্যবহার করেন",
-    "Best Sellers": "সেরা বিক্রেতা",
-    "Deals of the Week": "সপ্তাহের অফার",
-    
-    // Product Options
-    "Choose options": "অপশন বেছে নিন",
-    "Add to Cart": "কার্টে যোগ করুন",
-    "Options": "অপশন",
-    "Size": "আকার",
-    "Quantity": "পরিমাণ",
-    "Price:": "মূল্য:",
-    
-    // Footer Elements
-    "Ammur Achar is primarily an online-based food brand, but we also have a physical store located at Gulshan.": "আম্মুর আচার প্রাথমিকভাবে একটি অনলাইন ভিত্তিক খাদ্য ব্র্যান্ড, তবে আমাদের গুলশানে একটি ভৌত দোকানও রয়েছে।",
-    "Our Stories": "আমাদের গল্পসমূহ",
-    "DBID No: 317724393": "ডিবিআইডি নং: ৩১৭৭২৪৩৯৩",
-    "Footer links": "ফুটার লিংক",
-    "Terms & Conditions": "শর্তাবলী",
-    "Return & Refund Policy": "রিটার্ন এবং রিফান্ড নীতি",
-    "Trade License": "ট্রেড লাইসেন্স",
-    
-    // Navigation
-    "Home": "হোম",
-    "Collections": "সংগ্রহ",
-    "Stories": "গল্প",
-    "Contact": "যোগাযোগ",
-    "About Us": "আমাদের সম্পর্কে",
-    
-    // Testimonial and Blog Section Headers
-    "What our customer says": "আমাদের গ্রাহকরা যা বলে",
-    "Featured blog": "নির্বাচিত ব্লগ",
-    
-    // Customer Testimonials
-    "I have to admit your garlic mayo and naga sauce oh my my too good…taste kore i felt like ami eta sudhui kichu chara kheye feli….mashAllah subhanAllah taste….thank you sooooo much.": "আমাকে স্বীকার করতে হবে আপনার গার্লিক মেয়ো এবং নাগা সস আহা খুব ভালো...স্বাদ করে আমি অনুভব করলাম যেন আমি এটা শুধু কিছু ছাড়া খেয়ে ফেলি....মাশাআল্লাহ সুবহানাল্লাহ স্বাদ....অনেক ধন্যবাদ।",
-    "I am a fan of your alu bukhara pickle. Tastes too good!": "আমি আপনার আলুবুখারা আচারের একজন ভক্ত। স্বাদ খুব ভালো!",
-    "Best pickle in town ❤": "শহরের সেরা আচার ❤",
-    "Ei Naga chili dip ta ekdom next level! First, I get the flavor, then the real Naga heat kicks later. Love it!": "এই নাগা চিলি ডিপটা একদম নেক্সট লেভেল! প্রথমে, আমি স্বাদটা পাই, তারপর আসল নাগার ঝাল পরে লাগে। দারুণ লাগে!",
-    "Student": "শিক্ষার্থী",
-    "Digital Content Creator": "ডিজিটাল কনটেন্ট ক্রিয়েটর",
-    "Job Holder": "চাকরিজীবী",
-    
-    // Blog elements
-    "March 17, 2025": "১৭ মার্চ, ২০২৫",
-    "By Md Saif Anwar": "লিখেছেন মোঃ সাইফ আনোয়ার",
-    "Read more": "আরও পড়ুন",
-    
-    // Navigation controls
-    "Previous": "পূর্ববর্তী",
-    "Next": "পরবর্তী",
-    "Pause slideshow": "স্লাইডশো থামান",
-    "Play slideshow": "স্লাইডশো চালু করুন",
-    
-    // Features Section
-    "Loved by": "পছন্দ করেন",
-    "Used daily by": "প্রতিদিন ব্যবহার করেন",
-    "Best Sellers": "সেরা বিক্রেতা",
-    "Deals of the Week": "সপ্তাহের অফার",
-    
-    // Product Options
-    "Choose options": "অপশন বেছে নিন",
-    "Add to Cart": "কার্টে যোগ করুন",
-    "Options": "অপশন",
-    "Size": "আকার",
-    "Quantity": "পরিমাণ",
-    "Price:": "মূল্য:",
-    
-    // Footer Elements
-    "Ammur Achar is primarily an online-based food brand, but we also have a physical store located at Gulshan.": "আম্মুর আচার প্রাথমিকভাবে একটি অনলাইন ভিত্তিক খাদ্য ব্র্যান্ড, তবে আমাদের গুলশানে একটি ভৌত দোকানও রয়েছে।",
-    "Our Stories": "আমাদের গল্পসমূহ",
-    "DBID No: 317724393": "ডিবিআইডি নং: ৩১৭৭২৪৩৯৩",
-    "Footer links": "ফুটার লিংক",
-    "Terms & Conditions": "শর্তাবলী",
-    "Return & Refund Policy": "রিটার্ন এবং রিফান্ড নীতি",
-    "Trade License": "ট্রেড লাইসেন্স",
-    
-    // Navigation
-    "Home": "হোম",
-    "Collections": "সংগ্রহ",
-    "Stories": "গল্প",
-    "Contact": "যোগাযোগ",
-    "About Us": "আমাদের সম্পর্কে",
-    
-    // Testimonial and Blog Section Headers
-    "What our customer says": "আমাদের গ্রাহকরা যা বলে",
-    "Featured blog": "নির্বাচিত ব্লগ",
-    
-    // Customer Testimonials
-    "I have to admit your garlic mayo and naga sauce oh my my too good…taste kore i felt like ami eta sudhui kichu chara kheye feli….mashAllah subhanAllah taste….thank you sooooo much.": "আমাকে স্বীকার করতে হবে আপনার গার্লিক মেয়ো এবং নাগা সস আহা খুব ভালো...স্বাদ করে আমি অনুভব করলাম যেন আমি এটা শুধু কিছু ছাড়া খেয়ে ফেলি....মাশাআল্লাহ সুবহানাল্লাহ স্বাদ....অনেক ধন্যবাদ।",
-    "I am a fan of your alu bukhara pickle. Tastes too good!": "আমি আপনার আলুবুখারা আচারের একজন ভক্ত। স্বাদ খুব ভালো!",
-    "Best pickle in town ❤": "শহরের সেরা আচার ❤",
-    "Ei Naga chili dip ta ekdom next level! First, I get the flavor, then the real Naga heat kicks later. Love it!": "এই নাগা চিলি ডিপটা একদম নেক্সট লেভেল! প্রথমে, আমি স্বাদটা পাই, তারপর আসল নাগার ঝাল পরে লাগে। দারুণ লাগে!",
-    "Student": "শিক্ষার্থী",
-    "Digital Content Creator": "ডিজিটাল কনটেন্ট ক্রিয়েটর",
-    "Job Holder": "চাকরিজীবী",
-    
-    // Blog elements
-    "March 17, 2025": "১৭ মার্চ, ২০২৫",
-    "By Md Saif Anwar": "লিখেছেন মোঃ সাইফ আনোয়ার",
-    "Read more": "আরও পড়ুন",
-    
-    // Navigation controls
-    "Previous": "পূর্ববর্তী",
-    "Next": "পরবর্তী",
-    "Pause slideshow": "স্লাইডশো থামান",
-    "Play slideshow": "স্লাইডশো চালু করুন",
-    
-    // Features Section
-    "Loved by": "পছন্দ করেন",
-    "Used daily by": "প্রতিদিন ব্যবহার করেন",
-    "Best Sellers": "সেরা বিক্রেতা",
-    "Deals of the Week": "সপ্তাহের অফার",
-    
-    // Product Options
-    "Choose options": "অপশন বেছে নিন",
-    "Add to Cart": "কার্টে যোগ করুন",
-    "Options": "অপশন",
-    "Size": "আকার",
-    "Quantity": "পরিমাণ",
-    "Price:": "মূল্য:",
-    
-    // Footer Elements
-    "Ammur Achar is primarily an online-based food brand, but we also have a physical store located at Gulshan.": "আম্মুর আচার প্রাথমিকভাবে একটি অনলাইন ভিত্তিক খাদ্য ব্র্যান্ড, তবে আমাদের গুলশানে একটি ভৌত দোকানও রয়েছে।",
-    "Our Stories": "আমাদের গল্পসমূহ",
-    "DBID No: 317724393": "ডিবিআইডি নং: ৩১৭৭২৪৩৯৩",
-    "Footer links": "ফুটার লিংক",
-    "Terms & Conditions": "শর্তাবলী",
-    "Return & Refund Policy": "রিটার্ন এবং রিফান্ড নীতি",
-    "Trade License": "ট্রেড লাইসেন্স",
-    
-    // Navigation
-    "Home": "হোম",
-    "Collections": "সংগ্রহ",
-    "Stories": "গল্প",
-    "Contact": "যোগাযোগ",
-    "About Us": "আমাদের সম্পর্কে",
-    
-    // Testimonial and Blog Section Headers
-    "What our customer says": "আমাদের গ্রাহকরা যা বলে",
-    "Featured blog": "নির্বাচিত ব্লগ",
-    
-    // Customer Testimonials
-    "I have to admit your garlic mayo and naga sauce oh my my too good…taste kore i felt like ami eta sudhui kichu chara kheye feli….mashAllah subhanAllah taste….thank you sooooo much.": "আমাকে স্বীকার করতে হবে আপনার গার্লিক মেয়ো এবং নাগা সস আহা খুব ভালো...স্বাদ করে আমি অনুভব করলাম যেন আমি এটা শুধু কিছু ছাড়া খেয়ে ফেলি....মাশাআল্লাহ সুবহানাল্লাহ স্বাদ....অনেক ধন্যবাদ।",
-    "I am a fan of your alu bukhara pickle. Tastes too good!": "আমি আপনার আলুবুখারা আচারের একজন ভক্ত। স্বাদ খুব ভালো!",
-    "Best pickle in town ❤": "শহরের সেরা আচার ❤",
-    "Ei Naga chili dip ta ekdom next level! First, I get the flavor, then the real Naga heat kicks later. Love it!": "এই নাগা চিলি ডিপটা একদম নেক্সট লেভেল! প্রথমে, আমি স্বাদটা পাই, তারপর আসল নাগার ঝাল পরে লাগে। দারুণ লাগে!",
-    "Student": "শিক্ষার্থী",
-    "Digital Content Creator": "ডিজিটাল কনটেন্ট ক্রিয়েটর",
-    "Job Holder": "চাকরিজীবী",
-    
-    // Blog elements
-    "March 17, 2025": "১৭ মার্চ, ২০২৫",
-    "By Md Saif Anwar": "লিখেছেন মোঃ সাইফ আনোয়ার",
-    "Read more": "আরও পড়ুন",
-    
-    // Navigation controls
-    "Previous": "পূর্ববর্তী",
-    "Next": "পরবর্তী",
-    "Pause slideshow": "স্লাইডশো থামান",
-    "Play slideshow": "স্লাইডশো চালু করুন",
-    
-    // Features Section
-    "Loved by": "পছন্দ করেন",
-    "Used daily by": "প্রতিদিন ব্যবহার করেন",
-    "Best Sellers": "সেরা বিক্রেতা",
-    "Deals of the Week": "সপ্তাহের অফার",
-    
-    // Product Options
-    "Choose options": "অপশন বেছে নিন",
-    "Add to Cart": "কার্টে যোগ করুন",
-    "Options": "অপশন",
-    "Size": "আকার",
-    "Quantity": "পরিমাণ",
-    "Price:": "মূল্য:",
-    
-    // Footer Elements
-    "Ammur Achar is primarily an online-based food brand, but we also have a physical store located at Gulshan.": "আম্মুর আচার প্রাথমিকভাবে একটি অনলাইন ভিত্তিক খাদ্য ব্র্যান্ড, তবে আমাদের গুলশানে একটি ভৌত দোকানও রয়েছে।",
-    "Our Stories": "আমাদের গল্পসমূহ",
-    "DBID No: 317724393": "ডিবিআইডি নং: ৩১৭৭২৪৩৯৩",
-    "Footer links": "ফুটার লিংক",
-    "Terms & Conditions": "শর্তাবলী",
-    "Return & Refund Policy": "রিটার্ন এবং রিফান্ড নীতি",
-    "Trade License": "ট্রেড লাইসেন্স",
-    
-    // Navigation
-    "Home": "হোম",
-    "Collections": "সংগ্রহ",
-    "Stories": "গল্প",
-    "Contact": "যোগাযোগ",
-    "About Us": "আমাদের সম্পর্কে",
-    
-    // Testimonial and Blog Section Headers
-    "What our customer says": "আমাদের গ্রাহকরা যা বলে",
-    "Featured blog": "নির্বাচিত ব্লগ",
-    
-    // Customer Testimonials
-    "I have to admit your garlic mayo and naga sauce oh my my too good…taste kore i felt like ami eta sudhui kichu chara kheye feli….mashAllah subhanAllah taste….thank you sooooo much.": "আমাকে স্বীকার করতে হবে আপনার গার্লিক মেয়ো এবং নাগা সস আহা খুব ভালো...স্বাদ করে আমি অনুভব করলাম যেন আমি এটা শুধু কিছু ছাড়া খেয়ে ফেলি....মাশাআল্লাহ সুবহানাল্লাহ স্বাদ....অনেক ধন্যবাদ।",
-    "I am a fan of your alu bukhara pickle. Tastes too good!": "আমি আপনার আলুবুখারা আচারের একজন ভক্ত। স্বাদ খুব ভালো!",
-    "Best pickle in town ❤": "শহরের সেরা আচার ❤",
-    "Ei Naga chili dip ta ekdom next level! First, I get the flavor, then the real Naga heat kicks later. Love it!": "এই নাগা চিলি ডিপটা একদম নেক্সট লেভেল! প্রথমে, আমি স্বাদটা পাই, তারপর আসল নাগার ঝাল পরে লাগে। দারুণ লাগে!",
-    "Student": "শিক্ষার্থী",
-    "Digital Content Creator": "ডিজিটাল কনটেন্ট ক্রিয়েটর",
-    "Job Holder": "চাকরিজীবী",
-    
-    // Blog elements
-    "March 17, 2025": "১৭ মার্চ, ২০২৫",
-    "By Md Saif Anwar": "লিখেছেন মোঃ সাইফ আনোয়ার",
-    "Read more": "আরও পড়ুন",
-    
-    // Navigation controls
-    "Previous": "পূর্ববর্তী",
-    "Next": "পরবর্তী",
-    "Pause slideshow": "স্লাইডশো থামান",
-    "Play slideshow": "স্লাইডশো চালু করুন",
-    
-    // Features Section
-    "Loved by": "পছন্দ করেন",
-    "Used daily by": "প্রতিদিন ব্যবহার করেন",
-    "Best Sellers": "সেরা বিক্রেতা",
-    "Deals of the Week": "সপ্তাহের অফার",
-    
-    // Product Options
-    "Choose options": "অপশন বেছে নিন",
-    "Add to Cart": "কার্টে যোগ করুন",
-    "Options": "অপশন",
-    "Size": "আকার",
-    "Quantity": "পরিমাণ",
-    "Price:": "মূল্য:",
-    
-    // Footer Elements
-    "Ammur Achar is primarily an online-based food brand, but we also have a physical store located at Gulshan.": "আম্মুর আচার প্রাথমিকভাবে একটি অনলাইন ভিত্তিক খাদ্য ব্র্যান্ড, তবে আমাদের গুলশানে একটি ভৌত দোকানও রয়েছে।",
-    "Our Stories": "আমাদের গল্পসমূহ",
-    "DBID No: 317724393": "ডিবিআইডি নং: ৩১৭৭২৪৩৯৩",
-    "Footer links": "ফুটার লিংক",
-    "Terms & Conditions": "শর্তাবলী",
-    "Return & Refund Policy": "রিটার্ন এবং রিফান্ড নীতি",
-    "Trade License": "ট্রেড লাইসেন্স",
-    
-    // Navigation
-    "Home": "হোম",
-    "Collections": "সংগ্রহ",
-    "Stories": "গল্প",
-    "Contact": "যোগাযোগ",
-    "About Us": "আমাদের সম্পর্কে",
-    
-    // Testimonial and Blog Section Headers
-    "What our customer says": "আমাদের গ্রাহকরা যা বলে",
-    "Featured blog": "নির্বাচিত ব্লগ",
-    
-    // Customer Testimonials
-    "I have to admit your garlic mayo and naga sauce oh my my too good…taste kore i felt like ami eta sudhui kichu chara kheye feli….mashAllah subhanAllah taste….thank you sooooo much.": "আমাকে স্বীকার করতে হবে আপনার গার্লিক মেয়ো এবং নাগা সস আহা খুব ভালো...স্বাদ করে আমি অনুভব করলাম যেন আমি এটা শুধু কিছু ছাড়া খেয়ে ফেলি....মাশাআল্লাহ সুবহানাল্লাহ স্বাদ....অনেক ধন্যবাদ।",
-    "I am a fan of your alu bukhara pickle. Tastes too good!": "আমি আপনার আলুবুখারা আচারের একজন ভক্ত। স্বাদ খুব ভালো!",
-    "Best pickle in town ❤": "শহরের সেরা আচার ❤",
-    "Ei Naga chili dip ta ekdom next level! First, I get the flavor, then the real Naga heat kicks later. Love it!": "এই নাগা চিলি ডিপটা একদম নেক্সট লেভেল! প্রথমে, আমি স্বাদটা পাই, তারপর আসল নাগার ঝাল পরে লাগে। দারুণ লাগে!",
-    "Student": "শিক্ষার্থী",
-    "Digital Content Creator": "ডিজিটাল কনটেন্ট ক্রিয়েটর",
-    "Job Holder": "চাকরিজীবী",
-    
-    // Blog elements
-    "March 17, 2025": "১৭ মার্চ, ২০২৫",
-    "By Md Saif Anwar": "লিখেছেন মোঃ সাইফ আনোয়ার",
-    "Read more": "আরও পড়ুন",
-    
-    // Navigation controls
-    "Previous": "পূর্ববর্তী",
-    "Next": "পরবর্তী",
     "220,000+ Families": "২২০,০০০+ পরিবার",
     "Pure, Halal": "বিশুদ্ধ, হালাল",
     "Certified Goodness": "সার্টিফাইড গুণমান",
@@ -460,7 +107,6 @@ const translations = {
     "From Tk": "থেকে ৳",
     "Unit price /": "একক মূল্য /",
     "Available": "উপলব্ধ",
-    "Choose options": "বিকল্প বাছাই করুন",
     "View details": "বিস্তারিত দেখুন",
     
     // Product Names
@@ -478,8 +124,6 @@ const translations = {
     "Premium Mixed Pickle Collection": "প্রিমিয়াম মিক্সড আচার কালেকশন",
     
     // Collection Page
-    "Buy Authentic Pickles, Dips and Spices | Ammur Achar": "প্রামাণিক আচার, ডিপস এবং মসলা কিনুন | আম্মুর আচার",
-    "Discover the best pickles (আঁচার) and dipping sauces at Ammur Achar. Order online today and experience the perfect blend of flavor and quality!": "আম্মুর আচারে সেরা আঁচার এবং ডিপিং সস আবিষ্কার করুন। আজই অনলাইনে অর্ডার করুন এবং স্বাদ ও গুণমানের নিখুঁত মিশ্রণ অনুভব করুন!",
     "Buy Authentic Pickles, Dips and Spices | Ammur Achar": "আম্মুর আচার থেকে প্রামাণিক আচার, ডিপস এবং মসলা কিনুন",
     "Discover the best pickles (আঁচার) and dipping sauces at Ammur Achar. Order online today and experience the perfect blend of flavor and quality!": "আম্মুর আচারে সেরা আচার এবং ডিপিং সস আবিষ্কার করুন। আজই অনলাইনে অর্ডার করুন এবং স্বাদ ও মানের নিখুঁত মিশ্রণ অনুভব করুন!",
     "All": "সব",
@@ -563,11 +207,7 @@ const translations = {
     "Product Options": "পণ্যের বিকল্প",
     
     // Footer links
-    "Footer links": "ফুটার লিঙ্ক",
     "Search": "অনুসন্ধান",
-    "Terms & Conditions": "শর্তাবলী",
-    "Return & Refund Policy": "রিটার্ন এবং রিফান্ড নীতি",
-    "Trade License": "ট্রেড লাইসেন্স",
     "Newsletter": "নিউজলেটার",
     "Sign up for exclusive offers, original stories, events and more.": "এক্সক্লুসিভ অফার, অরিজিনাল গল্প, ইভেন্ট এবং আরও অনেক কিছুর জন্য সাইন আপ করুন।",
     "Email": "ইমেইল",
@@ -587,33 +227,17 @@ const translations = {
     "Shipping": "শিপিং",
     "Total": "মোট",
     
-    // Product Details
-    "Product Details": "পণ্যের বিবরণ",
-    "Description": "বিবরণ",
-    "Ingredients": "উপাদান",
-    "Nutrition Facts": "পুষ্টিতথ্য",
-    
     // Product Descriptions
     "Our signature Garlic Mayo Dipping Sauce is a creamy blend of rich mayonnaise infused with fresh garlic, herbs, and special spices. Perfect for dipping, spreading, or as a flavor enhancer for your favorite dishes.": "আমাদের সিগনেচার গার্লিক মেয়ো ডিপিং সস হল তাজা রসুন, ভেষজ এবং বিশেষ মশলা দিয়ে মিশ্রিত সমৃদ্ধ মেয়নেজের একটি ক্রিমি মিশ্রণ। ডিপিং, ছড়ানো বা আপনার প্রিয় খাবারের জন্য স্বাদ বাড়ানোর জন্য উপযুক্ত।",
-    
     "A perfect balance of sweet honey and tangy mustard creates this golden, velvety sauce. Our Honey Mustard Dipping Sauce adds a delightful zing to sandwiches, wraps, and is an excellent dipping sauce for chicken and vegetables.": "মিষ্টি মধু এবং টক সরিষার একটি নিখুঁত ভারসাম্য এই সোনালী, ভেলভেটি সস তৈরি করে। আমাদের হানি মাস্টার্ড ডিপিং সস স্যান্ডউইচ, র‍্যাপ-এ একটি আনন্দদায়ক স্বাদ যোগ করে এবং মুরগি ও শাকসবজির জন্য একটি চমৎকার ডিপিং সস।",
-    
     "For the brave and the bold, our Naga Chili Dipping Sauce brings the authentic heat of the famous Naga chili pepper, balanced with a hint of sweetness and tanginess. Perfect for those who love to spice things up!": "সাহসী এবং দুঃসাহসিকদের জন্য, আমাদের নাগা চিলি ডিপিং সস বিখ্যাত নাগা মরিচের প্রকৃত তীব্রতা নিয়ে আসে, একটু মিষ্টতা এবং টকের সাথে ভারসাম্যপূর্ণ। যারা খাবারে ঝাল পছন্দ করেন তাদের জন্য নিখুঁত!",
-    
     "A harmony of sweet and mild heat, our Sweet Chili Dipping Sauce is a versatile condiment that adds a delightful twist to spring rolls, grilled meats, and seafood. The perfect balance of sweet, sour, and spicy.": "আমাদের সুইট চিলি ডিপিং সস মিষ্টি এবং হালকা ঝালের একটি সুন্দর মিশ্রণ, যা স্প্রিং রোল, গ্রিল করা মাংস এবং সামুদ্রিক খাবারে একটি আনন্দদায়ক স্বাদ যোগ করে। মিষ্টি, টক এবং ঝালের নিখুঁত ভারসাম্য।",
-    
     "Made with fresh green chilies, this vibrant sauce offers a medium heat with herbal notes. Our Green Chili Dipping Sauce is perfect for enhancing the flavor of grilled meats, sandwiches, and as a dip for crackers and chips.": "তাজা সবুজ মরিচ দিয়ে তৈরি, এই জীবন্ত সস ভেষজ নোটের সাথে মাঝারি তীব্রতা প্রদান করে। আমাদের গ্রিন চিলি ডিপিং সস গ্রিল করা মাংস, স্যান্ডউইচের স্বাদ বাড়াতে এবং ক্র্যাকার ও চিপসের জন্য ডিপ হিসেবে নিখুঁত।",
-    
     "A rich, deep-flavored sauce with a medium-to-hot heat profile. Our Red Chili Dipping Sauce combines ripe red chilies with aromatic spices for a bold flavor that elevates any dish, from pasta to pizza to grilled meats.": "একটি সমৃদ্ধ, গভীর-স্বাদযুক্ত সস যার মাঝারি-থেকে-তীব্র তীব্রতার প্রোফাইল রয়েছে। আমাদের রেড চিলি ডিপিং সস পরিপক্ক লাল মরিচকে সুগন্ধি মশলার সাথে মিশ্রিত করে একটি সাহসী স্বাদ তৈরি করে যা পাস্তা থেকে পিজ্জা ও গ্রিল করা মাংস সহ যেকোনো খাবারকে উন্নত করে।",
-    
     "A traditional favorite, our Alu Bukhara (Plum) Pickle combines the sweet-sour taste of plums with aromatic spices for a tangy, sweet experience that complements any meal.": "ঐতিহ্যবাহী প্রিয়, আমাদের আলুবুখারা (প্লাম) আচার মিষ্টি-টক স্বাদকে সুগন্ধি মশলার সাথে মিশ্রিত করে এমন একটি টক, মিষ্টি অভিজ্ঞতার জন্য যা যেকোনো খাবারের সাথে সম্পূরক।",
-    
     "Made from raw green mangoes, our Amchur Pickle has a delightful tangy flavor profile with a perfect balance of spices. It adds a burst of zesty flavor to elevate your meals.": "কাঁচা সবুজ আম থেকে তৈরি, আমাদের আমচুর আচারে মশলার নিখুঁত ভারসাম্য সহ একটি আনন্দদায়ক টক স্বাদের প্রোফাইল রয়েছে। এটি আপনার খাবারকে উন্নত করার জন্য একটি তীব্র স্বাদ যোগ করে।",
-    
     "A unique Bengali delicacy, our Jolpai (Olive) Pickle combines the distinct taste of local olives with traditional spices for a savory-tangy experience that pairs perfectly with rice and lentils.": "একটি অনন্য বাঙালি খাবার, আমাদের জলপাই (অলিভ) আচার স্থানীয় জলপাইয়ের স্বতন্ত্র স্বাদকে ঐতিহ্যবাহী মশলার সাথে মিশ্রিত করে এমন একটি সুস্বাদু-টক অভিজ্ঞতার জন্য যা ভাত এবং ডালের সাথে নিখুঁতভাবে মানানসই।",
-    
     "Our signature Garam Masala is a carefully crafted blend of aromatic spices, toasted to perfection to release their essential oils. This authentic blend adds depth and warmth to curries, rice dishes, and vegetables.": "আমাদের সিগনেচার গরম মসলা হল সতর্কতার সাথে তৈরি করা সুগন্ধি মশলার একটি মিশ্রণ, যা তাদের অপরিহার্য তেল ছাড়ার জন্য নিখুঁতভাবে ভাজা হয়। এই প্রকৃত মিশ্রণটি কারি, ভাতের খাবার এবং শাকসবজিতে গভীরতা এবং উষ্ণতা যোগ করে।",
-    
     "Our Bhuna Masala is a robust blend of spices that have been roasted and ground to create a rich, fragrant base for curries and stews. This time-saving blend brings authentic flavor to your home cooking.": "আমাদের ভুনা মসলা হল মশলার একটি শক্তিশালী মিশ্রণ যা কারি এবং স্টু-এর জন্য একটি সমৃদ্ধ, সুগন্ধযুক্ত ভিত্তি তৈরি করতে ভাজা এবং গুঁড়া করা হয়েছে। এই সময় বাঁচানো মিশ্রণটি আপনার বাড়ির রান্নায় প্রকৃত স্বাদ নিয়ে আসে।",
 
     // New Premium Product Description
@@ -653,18 +277,15 @@ const translations = {
     "Servings Per Container": "পাত্র প্রতি পরিবেশন",
     
     // Product Options
-    "Size": "আকার",
     "Small (100g)": "ছোট (১০০গ্রাম)",
     "Medium (250g)": "মাঝারি (২৫০গ্রাম)",
     "Large (500g)": "বড় (৫০০গ্রাম)",
     "Family Pack (1kg)": "ফ্যামিলি প্যাক (১কেজি)",
-    "Quantity": "পরিমাণ",
     "Heat Level": "তীব্রতার মাত্রা",
     "Mild": "হালকা",
     "Medium": "মাঝারি",
     "Hot": "ঝাল",
     "Extra Hot": "অতিরিক্ত ঝাল",
-    "Add to Cart": "কার্টে যোগ করুন",
     
     // Additional Product Details
     "Weight": "ওজন",
@@ -684,10 +305,6 @@ const translations = {
     
     // Cart
     "Your Cart": "আপনার কার্ট",
-    "Your cart is empty": "আপনার কার্ট খালি",
-    "You need to add items to your cart before checkout.": "চেকআউট করার আগে আপনাকে আপনার কার্টে আইটেম যোগ করতে হবে।",
-    "Browse Products": "পণ্য দেখুন",
-    "Added to Cart": "কার্টে যোগ করা হয়েছে",
     "Item successfully added to your cart": "আইটেম সফলভাবে আপনার কার্টে যোগ করা হয়েছে",
     "View Cart": "কার্ট দেখুন",
     "Order Placed Successfully!": "অর্ডার সফলভাবে স্থাপন করা হয়েছে!",
