@@ -1,0 +1,217 @@
+/* About Page Styles */
+
+/* Hero Section */
+.about-hero {
+    padding: 60px 0;
+    background-color: var(--color-light-bg);
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.about-hero-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-hero-image {
+    flex: 1;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.about-hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about-hero-text {
+    flex: 1;
+}
+
+.about-hero-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Values Section */
+.our-values {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.our-values h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--color-primary);
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.value-card {
+    background-color: var(--color-light-bg);
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+.value-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.value-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: var(--color-primary);
+}
+
+.value-card p {
+    color: var(--color-text);
+    line-height: 1.5;
+}
+
+/* Team Section */
+.our-team {
+    padding: 80px 0;
+    background-color: var(--color-light-bg);
+}
+
+.our-team h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--color-primary);
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.team-member {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    margin: 20px 20px 5px;
+    color: var(--color-primary);
+}
+
+.team-member .team-role {
+    font-size: 0.9rem;
+    color: var(--color-accent);
+    margin: 0 20px 15px;
+    font-weight: 600;
+}
+
+.team-member p {
+    margin: 0 20px 20px;
+    line-height: 1.5;
+}
+
+/* Newsletter Section */
+.newsletter {
+    padding: 80px 0;
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.newsletter-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 10px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 15px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+}
+
+.newsletter-form button {
+    background-color: var(--color-accent);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #c44d2c;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about-hero-content {
+        flex-direction: column;
+    }
+    
+    .about-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .values-grid {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    
+    .newsletter-form {
+        flex-direction: column;
+    }
+    
+    .newsletter-form button {
+        width: 100%;
+        padding: 15px;
+    }
+} 

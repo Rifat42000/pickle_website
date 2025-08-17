@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Securely checkout and complete your order for premium pickles, dipping sauces, and spices from Ammur Achar. Multiple payment options available.">
+    <meta name="keywords" content="ammur achar checkout, order pickles, buy dipping sauce, Bengali food order, secure checkout">
+    <title>Checkout | Ammur Achar</title>
+    <link rel="preload" as="image" href="assets/images/logo.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/order.css">
+    <link rel="stylesheet" href="styles/cart-buttons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap&font-display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Banner -->
+   <!--  <div class="top-banner">
+        <p><strong>Buy Any 2 Jar, Get FREE Delivery</strong></p>
+        <p class="bangla-text">যেকোন ২টি জার কিনলে <strong>ফ্রি</strong> ডেলিভারি <strong>(সারাদেশে)</strong></p>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Ammur Achar">
+                </a>
+            </div>
+            <div class="search-bar">
+                <form action="search-results.html" method="get">
+                    <input type="text" name="query" placeholder="Search Product type">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="header-actions">
+                <div class="language-switcher">
+                    <span class="language-label">EN</span>
+                    <label class="language-toggle" aria-label="Switch language between English and Bengali">
+                        <input type="checkbox" id="language-toggle" aria-label="Language toggle">
+                        <span class="language-slider"></span>
+                    </label>
+                    <span class="language-label bangla-text">বাং</span>
+                </div>
+                <a href="#" class="cart-btn"><img src="assets/images/cart.png" alt="Cart" class="cart-icon"> <span class="cart-count">0</span></a>
+            </div>
+            
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Middle Navigation -->
+    <nav class="middle-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="blogs.html">Stories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Checkout</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Checkout Section -->
+    <section class="checkout-section">
+        <div class="container">
+            <h1>Checkout</h1>
+            <div class="checkout-container">
+                <!-- Left column - Order form -->
+                <div class="checkout-form-container">
+                    <h2>Shipping Information</h2>
+                    <form id="order-form">
+                        <div class="form-group">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" id="full-name" name="fullName" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required aria-required="true" pattern="[0-9\+\-\s]{10,15}">
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Full Address</label>
+                            <textarea id="address" name="address" rows="3" required aria-required="true"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="postal-code">Postal Code</label>
+                            <input type="text" id="postal-code" name="postalCode">
+                        </div>
+                        <div class="form-group">
+                            <label for="notes">Order Notes (Optional)</label>
+                            <textarea id="notes" name="notes" rows="2"></textarea>
+                        </div>
+                        
+                        <h2>Payment Method</h2>
+                        <div class="payment-methods">
+                            <div class="payment-method">
+                                <input type="radio" id="cash-on-delivery" name="paymentMethod" value="cash-on-delivery" checked>
+                                <label for="cash-on-delivery">Cash on Delivery</label>
+                            </div>
+                            <div class="payment-method">
+                                <input type="radio" id="bkash" name="paymentMethod" value="bkash">
+                                <label for="bkash">bKash</label>
+                            </div>
+                            <div class="payment-method">
+                                <input type="radio" id="nagad" name="paymentMethod" value="nagad">
+                                <label for="nagad">Nagad</label>
+                            </div>
+                            <div class="payment-method">
+                                <input type="radio" id="card" name="paymentMethod" value="card">
+                                <label for="card">Credit/Debit Card</label>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="place-order-btn">Place Order</button>
+                    </form>
+                </div>
+                
+                <!-- Right column - Order summary -->
+                <div class="order-summary-container">
+                    <h2>Order Summary</h2>
+                    <div class="order-items">
+                        <!-- Order items will be inserted here by JS -->
+                    </div>
+                    <div class="order-totals">
+                        <div class="order-subtotal">
+                            <span>Subtotal</span>
+                            <span id="order-subtotal">Tk 0</span>
+                        </div>
+                        <div class="order-shipping">
+                            <span>Shipping</span>
+                            <span id="order-shipping">Tk 60</span>
+                        </div>
+                        <div class="order-total">
+                            <span>Total</span>
+                            <span id="order-total">Tk 0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </a>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-about">
+                <h3 data-original-text="About Us">About Us</h3>
+                <p data-original-text="Ammur Achar is primarily an online-based food brand, but we also have a physical store located at Gulshan.">Ammur Achar is primarily an online-based food brand, but we also have a physical store located at Gulshan.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/ammurachari" class="social-link" aria-label="Follow us on Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/ammurachari" class="social-link" aria-label="Subscribe to our YouTube channel" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/ammurachari" class="social-link" aria-label="Follow us on Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/ammurachari" class="social-link" aria-label="Connect with us on LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3 data-original-text="Footer links">Footer links</h3>
+                <ul>
+                    <li><a href="#" data-original-text="Search">Search</a></li>
+                    <li><a href="blogs.html" data-original-text="Our Stories">Our Stories</a></li>
+                    <li><a href="#" data-original-text="Terms & Conditions">Terms & Conditions</a></li>
+                    <li><a href="#" data-original-text="Return & Refund Policy">Return & Refund Policy</a></li>
+                    <li><a href="#" data-original-text="Trade License">Trade License</a></li>
+                    <li><a href="#" data-original-text="DBID No: 317724393">DBID No: 317724393</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Sign up for exclusive offers, original stories, events and more.</p>
+                <form action="#" method="post" class="newsletter-form">
+                    <label for="newsletter-email-order" class="visually-hidden">Email address</label>
+                    <input type="email" id="newsletter-email-order" name="email" placeholder="Email" required aria-required="true">
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="payment-methods">
+                    <p>Payment methods accepted</p>
+                    <div class="payment-icons">
+                        <img src="assets/images/payment/visa.png" alt="Visa card payment accepted">
+                        <img src="assets/images/payment/mastercard.png" alt="Mastercard payment accepted">
+                        <img src="assets/images/payment/bkash.png" alt="bKash payment accepted">
+                        <img src="assets/images/payment/nagad.png" alt="Nagad payment accepted">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Ammur Achar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>Your Cart</h3>
+                <button class="close-btn">&times;</button>
+            </div>
+            
+            <div class="cart-empty">
+                <p>Your cart is empty</p>
+                <button class="start-shopping-btn">Start Shopping</button>
+            </div>
+            
+            <!-- Cart items will be dynamically inserted here by JS -->
+            
+            <div class="cart-footer">
+                <div class="subtotal">
+                    <span>Subtotal</span>
+                    <span>Tk 0 BDT</span>
+                </div>
+                <p class="shipping-note">Shipping & taxes calculated at checkout</p>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Success Modal -->
+    <div class="order-success-modal" style="display: none;">
+        <div class="order-success-content">
+            <div class="success-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h2 data-original-text="Order Placed Successfully!">Order Placed Successfully!</h2>
+            <p data-original-text="Thank you for your order. We'll process it right away.">Thank you for your order. We'll process it right away.</p>
+            <p data-original-text="Your order number is:">Your order number is: <span id="order-number"></span></p>
+            <button class="continue-shopping-btn" data-original-text="Continue Shopping">Continue Shopping</button>
+        </div>
+    </div>
+
+    <!-- Cart Overlay and Notification -->
+    <div class="cart-overlay"></div>
+    <div class="cart-notification">
+      <div class="cart-notification-content">
+        <div class="cart-notification-icon">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <div class="cart-notification-text">
+          <h3 class="cart-notification-title">Added to Cart</h3>
+          <p class="cart-notification-message">Item successfully added to your cart</p>
+        </div>
+      </div>
+      <button class="view-cart-btn">View Cart</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/language.js" onerror="console.error('Failed to load language.js. Language switching functionality may be limited.')"></script>
+    <script src="js/main.js" onerror="console.error('Failed to load main.js. Some site functionality may be limited.')"></script>
+    <script src="js/order.js" onerror="console.error('Failed to load order.js. Some checkout functionality may be limited.')"></script>
+    
+    <!-- Force language check on page load -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('language');
+            if (savedLanguage === 'bn') {
+                setTimeout(function() {
+                    if (window.setLanguage) {
+                        window.setLanguage('bn');
+                    }
+                }, 500);
+            }
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Search results for premium pickles, dipping sauces, and spices at Ammur Achar. Find your favorite authentic Bengali flavors and condiments.">
+    <meta name="keywords" content="achar search, pickle search, food search, Bengali condiments, dipping sauce search">
+    <title>Search Results | Ammur Achar</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/collections.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap&font-display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Banner -->
+  <!--   <div class="top-banner">
+        <p><strong>Buy Any 2 Jar, Get FREE Delivery</strong></p>
+        <p class="bangla-text">যেকোন ২টি জার কিনলে <strong>ফ্রি</strong> ডেলিভারি <strong>(সারাদেশে)</strong></p>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Ammur Achar">
+                </a>
+            </div>
+            <div class="search-bar">
+                <form action="search-results.html" method="get">
+                    <input type="text" name="query" placeholder="Search Product type">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="header-actions">
+                <div class="language-switcher">
+                    <span class="language-label">EN</span>
+                    <label class="language-toggle" aria-label="Switch language between English and Bengali">
+                        <input type="checkbox" id="language-toggle" aria-label="Language toggle">
+                        <span class="language-slider"></span>
+                    </label>
+                    <span class="language-label bangla-text">বাং</span>
+                </div>
+                <a href="#" class="cart-btn"><img src="assets/images/cart.png" alt="Cart" class="cart-icon"> <span class="cart-count">0</span></a>
+            </div>
+            
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Middle Navigation -->
+    <nav class="middle-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="blogs.html">Stories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Search Results</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Search Results Header -->
+    <div class="collection-header">
+        <div class="container">
+            <h1>Search Results</h1>
+            <p id="search-summary">Showing results for your search query.</p>
+        </div>
+    </div>
+
+    <!-- Search Results -->
+    <section class="product-listing">
+        <div class="container">
+            <h2>Products found</h2>
+            <div class="product-grid search-results-grid">
+                <!-- Products will be dynamically populated here -->
+            </div>
+            <div id="no-results" style="display: none;" class="no-search-results">
+                <p>No products found matching your search.</p>
+                <a href="collections.html" class="reset-search-btn">Browse All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>Your Cart</h3>
+                <button class="close-btn">&times;</button>
+            </div>
+            
+            <div class="cart-empty">
+                <p>Your cart is empty</p>
+                <button class="start-shopping-btn">Start Shopping</button>
+            </div>
+            
+            <!-- Cart items will be dynamically inserted here by JS -->
+            
+            <div class="cart-footer">
+                <div class="subtotal">
+                    <span>Subtotal</span>
+                    <span>Tk 0 BDT</span>
+                </div>
+                <p class="shipping-note">Shipping & taxes calculated at checkout</p>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </a>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-about">
+                <h3 data-original-text="About Us">About Us</h3>
+                <p data-original-text="Ammur Achar is primarily an online-based food brand, but we also have a physical store located at Gulshan.">Ammur Achar is primarily an online-based food brand, but we also have a physical store located at Gulshan.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/ammurachari" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/ammurachari" class="social-link"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/ammurachari" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/ammurachari" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3 data-original-text="Footer links">Footer links</h3>
+                <ul>
+                    <li><a href="#" data-original-text="Search">Search</a></li>
+                    <li><a href="blogs.html" data-original-text="Our Stories">Our Stories</a></li>
+                    <li><a href="#" data-original-text="Terms & Conditions">Terms & Conditions</a></li>
+                    <li><a href="#" data-original-text="Return & Refund Policy">Return & Refund Policy</a></li>
+                    <li><a href="#" data-original-text="Trade License">Trade License</a></li>
+                    <li><a href="#" data-original-text="DBID No: 317724393">DBID No: 317724393</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Sign up for exclusive offers, original stories, events and more.</p>
+                <form action="#" method="post" class="newsletter-form">
+                    <label for="newsletter-email-search" class="visually-hidden">Email address</label>
+                    <input type="email" id="newsletter-email-search" name="email" placeholder="Email" required aria-required="true">
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="payment-methods">
+                    <p>Payment methods accepted</p>
+                    <div class="payment-icons">
+                        <img src="assets/images/payment/visa.png" alt="Visa">
+                        <img src="assets/images/payment/mastercard.png" alt="Mastercard">
+                        <img src="assets/images/payment/bkash.png" alt="bKash">
+                        <img src="assets/images/payment/nagad.png" alt="Nagad">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Ammur Achar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Product Details Modal -->
+    <div class="product-details-modal">
+      <div class="product-details-content">
+        <div class="product-details-header">
+          <h3 data-original-text="Product Details">Product Details</h3>
+          <button class="close-btn">&times;</button>
+        </div>
+        <div class="product-details-body">
+          <div class="product-details-image">
+            <!-- Product image will be dynamically inserted here -->
+          </div>
+          <div class="product-details-info">
+            <h2 class="product-details-title"><!-- Product title will be inserted here --></h2>
+            <p class="product-details-price"><!-- Price will be inserted here --></p>
+            <p class="product-details-availability"><!-- Availability will be inserted here --></p>
+            <div class="product-details-description">
+              <h4 data-original-text="Description">Description</h4>
+              <p><!-- Product description will be inserted here --></p>
+            </div>
+            <div class="product-details-ingredients">
+              <h4 data-original-text="Ingredients">Ingredients</h4>
+              <p><!-- Product ingredients will be inserted here --></p>
+            </div>
+            <div class="product-details-nutrition">
+              <h4 data-original-text="Nutrition Facts">Nutrition Facts</h4>
+              <ul>
+                <!-- Nutrition facts will be inserted here -->
+              </ul>
+            </div>
+            <div class="product-details-actions">
+              <button class="options-btn" data-original-text="Choose options">Choose options</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Options Modal -->
+    <div class="options-modal">
+      <div class="options-content">
+        <div class="options-header">
+          <h3 data-original-text="Product Options">Product Options</h3>
+          <button class="close-btn">&times;</button>
+        </div>
+        <div class="options-body">
+          <!-- Content dynamically inserted by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart Overlay and Notification -->
+    <div class="cart-overlay"></div>
+    <div class="cart-notification">
+      <div class="cart-notification-content">
+        <div class="cart-notification-icon">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <div class="cart-notification-text">
+          <h3 class="cart-notification-title">Added to Cart</h3>
+          <p class="cart-notification-message">Item successfully added to your cart</p>
+        </div>
+      </div>
+      <button class="view-cart-btn">View Cart</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/language.js" onerror="console.error('Failed to load language.js. Language switching functionality may be limited.')"></script>
+    <script src="js/main.js" onerror="console.error('Failed to load main.js. Some site functionality may be limited.')"></script>
+    
+    <!-- Force language check on page load -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('language');
+            if (savedLanguage === 'bn') {
+                setTimeout(function() {
+                    if (window.setLanguage) {
+                        window.setLanguage('bn');
+                    }
+                }, 500);
+            }
+        });
+    </script>
+</body>
+</html> 

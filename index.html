@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ammur Achar - Premium quality handmade pickles, dipping sauces, and spices. Authentic flavors, made with love using traditional recipes and natural ingredients.">
+    <meta name="keywords" content="achar, pickle, dipping sauce, Bangladesh, homemade, natural, organic, traditional">
+    <title>Ammur Achar - Authentic Bengali Food &amp; Flavors</title>
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/cart-buttons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap&font-display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap&font-display=swap" rel="stylesheet">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" as="image" href="assets/images/logo.png">
+    <link rel="preload" as="video" href="assets/videos/hero-video.mp4" type="video/mp4">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Store",
+        "name": "Ammur Achar",
+        "description": "Premium quality handmade pickles, dipping sauces, and spices. Authentic flavors, made with love using traditional recipes and natural ingredients.",
+        "image": "assets/images/logo.png",
+        "url": "https://ammurachari.com",
+        "telephone": "+8801302700263",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Main Street",
+            "addressLocality": "Dhaka",
+            "addressRegion": "Dhaka",
+            "postalCode": "1000",
+            "addressCountry": "BD"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "23.8103",
+            "longitude": "90.4125"
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "opens": "09:00",
+                "closes": "18:00"
+            }
+        ],
+        "sameAs": [
+            "https://www.facebook.com/ammurachari",
+            "https://www.instagram.com/ammurachari"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <!-- Top Banner -->
+   <!--  <div class="top-banner">
+        <p><strong>Buy Any 2 Jar, Get FREE Delivery</strong></p>
+        <p class="bangla-text">যেকোন ২টি জার কিনলে <strong>ফ্রি</strong> ডেলিভারি <strong>(সারাদেশে)</strong></p>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Ammur Achar">
+                </a>
+            </div>
+            
+            <div class="search-bar">
+                <form action="search-results.html" method="get">
+                    <input type="text" name="query" placeholder="Search Product type">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            
+            <div class="header-actions">
+                <div class="language-switcher">
+                    <span class="language-label">EN</span>
+                    <label class="language-toggle" aria-label="Switch language between English and Bengali">
+                        <input type="checkbox" id="language-toggle" aria-label="Language toggle">
+                        <span class="language-slider"></span>
+                    </label>
+                    <span class="language-label bangla-text">বাং</span>
+                </div>
+                <a href="#" class="cart-btn"><img src="assets/images/cart.png" alt="Cart" class="cart-icon"> <span class="cart-count">0</span></a>
+            </div>
+            
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Middle Navigation -->
+    <nav class="middle-nav">
+        <div class="container">
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="blogs.html">Stories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="main-content">
+        <div class="hero-video">
+            <video autoplay muted loop playsinline>
+                <source src="assets/videos/hero-video.mp4" type="video/mp4">
+                <source src="assets/videos/hero-video.webm" type="video/webm">
+                <img src="assets/images/hero-fallback.jpg" alt="Ammur Achar - Authentic flavors, made with love" class="hero-fallback">
+                Your browser does not support the video tag. Please update your browser to view this content.
+            </video>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-items">
+                <div class="feature-item">
+                    <div class="icon"><i class="fas fa-heart"></i></div>
+                    <h3>Loved by</h3>
+                    <p>220,000+ Families</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Pure, Halal</h3>
+                    <p>Certified Goodness</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon"><i class="fas fa-check-circle"></i></div>
+                    <h3>ISO Certified</h3>
+                    <p>Quality Guaranteed</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon"><i class="fas fa-award"></i></div>
+                    <h3>The Only Great Taste Award</h3>
+                    <p>Pickle Brand from Bangladesh</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tagline Section -->
+    <section class="tagline">
+        <div class="container">
+            <h2>Authentic Flavors, Made with Love</h2>
+            <h2>Not Just Made, Made with Purpose</h2>
+        </div>
+    </section>
+
+    <!-- USP Section -->
+    <section class="usp">
+        <div class="container">
+            <div class="usp-grid">
+                <div class="usp-item">
+                    <div class="usp-icon"><i class="fas fa-hands"></i></div>
+                    <h3>Made by Hand</h3>
+                    <p>We craft with tradition that machines can't match</p>
+                </div>
+                <div class="usp-item">
+                    <div class="usp-icon"><i class="fas fa-fill-drip"></i></div>
+                    <h3>Zero Artificial Colors</h3>
+                    <p>We let nature do the coloring, no need for additives</p>
+                </div>
+                <div class="usp-item">
+                    <div class="usp-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>No Preservatives</h3>
+                    <p>We rely on nature's methods, not synthetic preservatives</p>
+                </div>
+                <div class="usp-item">
+                    <div class="usp-icon"><i class="fas fa-seedling"></i></div>
+                    <h3>All Organic, All Natural</h3>
+                    <p>We keep it organic and natural— just pure goodness</p>
+                </div>
+                <div class="usp-item">
+                    <div class="usp-icon"><i class="fas fa-apple-alt"></i></div>
+                    <h3>Picked from the Best</h3>
+                    <p>We source only from the best, where quality thrives naturally</p>
+                </div>
+                <div class="usp-item">
+                    <div class="usp-icon"><i class="fas fa-mortar-pestle"></i></div>
+                    <h3>Small Batches, Bold Flavors</h3>
+                    <p>Handcrafted in small batches for the perfect balance of taste.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section class="deals">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-original-text="Deals of the Week">Deals of the Week</h2>
+                <a href="#" class="view-all" data-original-text="View all">View all</a>
+            </div>
+            <div class="deals-content">
+                <div class="deal-card">
+                    <div class="badge new">NEW</div>
+                    <div class="badge arrival">Arrival</div>
+                    <h3>Unique Masalas From Teknaf to Tetulia</h3>
+                    <h4>Gift Box</h4>
+                    <p>Starting from</p>
+                    <p class="price">500 BDT</p>
+                    <p class="free-delivery">FREE Delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Selling Section -->
+    <section class="top-selling">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-original-text="Best Sellers">Best Sellers</h2>
+                <a href="#" class="view-all" data-original-text="View all">View all</a>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/images/products/garlic-mayo.jpg" alt="Garlic Mayo Dipping Sauce" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Garlic Mayo Dipping Sauce</h3>
+                        <p class="price">From Tk 280</p>
+                        <p class="unit-price">Unit price /</p>
+                        <p class="availability">Available</p>
+                        <div class="product-actions">
+                            <button class="options-btn">Choose options</button>
+                            <button class="view-details-btn">View details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/images/products/honey-mustard.jpg" alt="Honey Mustard Dipping Sauce" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Honey Mustard Dipping Sauce</h3>
+                        <p class="price">From Tk 280</p>
+                        <p class="unit-price">Unit price /</p>
+                        <p class="availability">Available</p>
+                        <div class="product-actions">
+                            <button class="options-btn">Choose options</button>
+                            <button class="view-details-btn">View details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/images/products/naga-chili.jpg" alt="Naga Chili Dipping Sauce" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Naga Chili Dipping Sauce</h3>
+                        <p class="price">From Tk 260</p>
+                        <p class="unit-price">Unit price /</p>
+                        <p class="availability">Available</p>
+                        <div class="product-actions">
+                            <button class="options-btn">Choose options</button>
+                            <button class="view-details-btn">View details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/images/products/sweet-chili.jpg" alt="Sweet Chili Dipping Sauce" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Sweet Chili Dipping Sauce</h3>
+                        <p class="price">From Tk 260</p>
+                        <p class="unit-price">Unit price /</p>
+                        <p class="availability">Available</p>
+                        <div class="product-actions">
+                            <button class="options-btn">Choose options</button>
+                            <button class="view-details-btn">View details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/images/products/green-chili.jpg" alt="Green Chili Dipping Sauce" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Green Chili Dipping Sauce</h3>
+                        <p class="price">From Tk 260</p>
+                        <p class="unit-price">Unit price /</p>
+                        <p class="availability">Available</p>
+                        <div class="product-actions">
+                            <button class="options-btn">Choose options</button>
+                            <button class="view-details-btn">View details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/images/products/red-chili.jpg" alt="Red Chili Dipping Sauce" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Red Chili Dipping Sauce</h3>
+                        <p class="price">From Tk 260</p>
+                        <p class="unit-price">Unit price /</p>
+                        <p class="availability">Available</p>
+                        <div class="product-actions">
+                            <button class="options-btn">Choose options</button>
+                            <button class="view-details-btn">View details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev-btn" aria-label="View previous products" data-original-text="Previous">Previous</button>
+                <button class="next-btn" aria-label="View next products" data-original-text="Next">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 data-original-text="What our customer says">What our customer says</h2>
+            <div class="testimonials-slider" role="region" aria-label="Customer testimonials">
+                <div class="testimonial-slide">
+                    <div class="rating">★★★★★</div>
+                    <blockquote>
+                        <p data-original-text="I have to admit your garlic mayo and naga sauce oh my my too good…taste kore i felt like ami eta sudhui kichu chara kheye feli….mashAllah subhanAllah taste….thank you sooooo much.">I have to admit your garlic mayo and naga sauce oh my my too good…taste kore i felt like ami eta sudhui kichu chara kheye feli….mashAllah subhanAllah taste….thank you sooooo much.</p>
+                    </blockquote>
+                    <div class="author">
+                        <p class="name">Nishat Zahan</p>
+                        <p class="title" data-original-text="Student">Student</p>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="rating">★★★★★</div>
+                    <blockquote>
+                        <p data-original-text="I am a fan of your alu bukhara pickle. Tastes too good!">I am a fan of your alu bukhara pickle. Tastes too good!</p>
+                        <p data-original-text="Best pickle in town ❤">Best pickle in town ❤</p>
+                    </blockquote>
+                    <div class="author">
+                        <p class="name">Shaidur Rahman Shagor</p>
+                        <p class="title" data-original-text="Digital Content Creator">Digital Content Creator</p>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="rating">★★★★★</div>
+                    <blockquote>
+                        <p data-original-text="Ei Naga chili dip ta ekdom next level! First, I get the flavor, then the real Naga heat kicks later. Love it!">Ei Naga chili dip ta ekdom next level! First, I get the flavor, then the real Naga heat kicks later. Love it!</p>
+                    </blockquote>
+                    <div class="author">
+                        <p class="name">Ratna Khanom</p>
+                        <p class="title" data-original-text="Job Holder">Job Holder</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="pause-btn" aria-label="Pause testimonial slideshow" data-original-text="Pause slideshow">Pause slideshow</button>
+                <button class="play-btn" aria-label="Play testimonial slideshow" data-original-text="Play slideshow">Play slideshow</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blog Section -->
+    <section class="featured-blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-original-text="Featured blog">Featured blog</h2>
+                <a href="blogs.html" class="view-all" data-original-text="View all">View all</a>
+            </div>
+            <div class="blog-grid" role="region" aria-label="Featured blog posts">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="assets/images/blogs/ramadan-schedule.jpg" alt="Ramadan Schedule" loading="lazy">
+                    </div>
+                    <div class="blog-date" data-original-text="March 17, 2025">March 17, 2025</div>
+                    <h3 class="bangla-text">সেহরি ও ইফতারের সময়সূচি - ২০২৫</h3>
+                    <p class="blog-author" data-original-text="By Md Saif Anwar">By Md Saif Anwar</p>
+                    <p class="blog-excerpt bangla-text">আম্মুর আচার নিয়ে এসেছে ইসলামিক ফাউন্ডেশন বাংলাদেশ অনুমোদিত ২০২৫ সালের সেহরি ও ইফতারের সময়সূচি। পাশাপাশি, রোজার নিয়ত ও ইফতারের দোয়া দেওয়া হয়েছে। ইফতারকে আরও সুস্বাদু করতে আম্মুর আচার-এর...</p>
+                    <a href="#" class="read-more" data-original-text="Read more">Read more</a>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="assets/images/blogs/alubukhara.jpg" alt="Alu Bukhara Nutritional Benefits" loading="lazy">
+                    </div>
+                    <div class="blog-date" data-original-text="March 17, 2025">March 17, 2025</div>
+                    <h3 class="bangla-text">আলুবোখারার পুষ্টিগুণ</h3>
+                    <p class="blog-author" data-original-text="By Md Saif Anwar">By Md Saif Anwar</p>
+                    <p class="blog-excerpt bangla-text">ছোট্ট একটি ফলের নাম আলুবোখারা। টক মিষ্টি স্বাদের মাংসালো এই ফলটি খেতে খুবই সুস্বাদু। আমরা সাধারণত আলুবোখারা বলতে যেটা পাই সেটা ফলটির শুকনো রূপ। খাবারের স্বাদ বাড়াতেও মসলা হিসেবে এর...</p>
+                    <a href="#" class="read-more" data-original-text="Read more">Read more</a>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="assets/images/blogs/jolpai-recipe.jpg" alt="Jolpai Pickle Recipe" loading="lazy">
+                    </div>
+                    <div class="blog-date" data-original-text="March 17, 2025">March 17, 2025</div>
+                    <h3 class="bangla-text">সহজেই জলপাই এর টক-ঝাল-মিষ্টি আচার তৈরির রেসিপি</h3>
+                    <p class="blog-author" data-original-text="By Md Saif Anwar">By Md Saif Anwar</p>
+                    <p class="blog-excerpt bangla-text">জলপাইয়ের টক-ঝাল-মিষ্টি আচার খুব সহজে তৈরি করা যায় এবং এটি দীর্ঘদিন সংরক্ষণ করা যায়। আচার তৈরি করতে ১ কেজি জলপাই, সরিষার তেল, তেজপাতা, শুকনা মরিচ, পাঁচফোড়ন, চিনি, লবণ এবং ভিনেগার...</p>
+                    <a href="#" class="read-more" data-original-text="Read more">Read more</a>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="assets/images/blogs/mango-benefits.jpg" alt="Mango Nutritional Benefits" loading="lazy">
+                    </div>
+                    <div class="blog-date" data-original-text="March 17, 2025">March 17, 2025</div>
+                    <h3 class="bangla-text">আমের পুষ্টিগুনাগুণ ও উপকারিতা</h3>
+                    <p class="blog-author" data-original-text="By Md Saif Anwar">By Md Saif Anwar</p>
+                    <p class="blog-excerpt bangla-text">বাংলাদেশে গ্রীষ্মকালীন মৌসুমে সবচেয়ে জনপ্রিয় ফলগুলোর মধ্যে আম শীর্ষে। ফলের রাজা আম শুধু স্বাদের জন্যই নয়, অসংখ্য পুষ্টিগুনাগুণের জন্যও বিখ্যাত। চলুন জেনে নিই আম খাওয়ার অজানা কিছু স্বাস্থ্য উপকারিতা।</p>
+                    <a href="#" class="read-more" data-original-text="Read more">Read more</a>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev-btn" aria-label="View previous blog posts" data-original-text="Previous">Previous</button>
+                <button class="next-btn" aria-label="View next blog posts" data-original-text="Next">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>Your Cart</h3>
+                <button class="close-btn">&times;</button>
+            </div>
+            
+            <div class="cart-empty">
+              
+                <p>Your cart is empty</p>
+                <button class="start-shopping-btn">Start Shopping</button>
+            </div>
+            
+            <!-- Cart items will be dynamically inserted here by JS -->
+            
+            <div class="cart-footer">
+                <div class="subtotal">
+                    <span>Subtotal</span>
+                    <span>Tk 0 BDT</span>
+                </div>
+                <p class="shipping-note">Shipping & taxes calculated at checkout</p>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </a>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-about">
+                <h3 data-original-text="About Us">About Us</h3>
+                <p data-original-text="Ammur Achar is primarily an online-based food brand, but we also have a physical store located at Gulshan.">Ammur Achar is primarily an online-based food brand, but we also have a physical store located at Gulshan.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/ammurachari" class="social-link" aria-label="Follow us on Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/ammurachari" class="social-link" aria-label="Subscribe to our YouTube channel" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/ammurachari" class="social-link" aria-label="Follow us on Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/ammurachari" class="social-link" aria-label="Connect with us on LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3 data-original-text="Footer links">Footer links</h3>
+                <ul>
+                    <li><a href="#" data-original-text="Search">Search</a></li>
+                    <li><a href="blogs.html" data-original-text="Our Stories">Our Stories</a></li>
+                    <li><a href="#" data-original-text="Terms & Conditions">Terms & Conditions</a></li>
+                    <li><a href="#" data-original-text="Return & Refund Policy">Return & Refund Policy</a></li>
+                    <li><a href="#" data-original-text="Trade License">Trade License</a></li>
+                    <li><a href="#" data-original-text="DBID No: 317724393">DBID No: 317724393</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Sign up for exclusive offers, original stories, events and more.</p>
+                <form action="#" method="post" class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="Email" aria-label="Email address" name="newsletter-email" id="newsletter-email" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Please enter a valid email address">
+                    <button type="submit" aria-label="Subscribe to newsletter">Subscribe</button>
+                </form>
+                <div class="newsletter-message" id="newsletter-message" aria-live="polite"></div>
+                <div class="payment-methods">
+                    <p>Payment methods accepted</p>
+                    <div class="payment-icons">
+                        <img src="assets/images/payment/visa.png" alt="Visa card payment accepted">
+                        <img src="assets/images/payment/mastercard.png" alt="Mastercard payment accepted">
+                        <img src="assets/images/payment/bkash.png" alt="bKash payment accepted">
+                        <img src="assets/images/payment/nagad.png" alt="Nagad payment accepted">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Ammur Achar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Overlay and Notification -->
+    <div class="cart-overlay"></div>
+    <div class="cart-notification">
+      <div class="cart-notification-content">
+        <div class="cart-notification-icon">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <div class="cart-notification-text">
+          <h3 class="cart-notification-title">Added to Cart</h3>
+          <p class="cart-notification-message">Item successfully added to your cart</p>
+        </div>
+      </div>
+      <button class="view-cart-btn">View Cart</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/language.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/carousel.js"></script>
+    <script>
+        // Initialize necessary functions after all scripts are loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Force language check on page load
+            const savedLanguage = localStorage.getItem('language');
+            if (savedLanguage === 'bn') {
+                setTimeout(function() {
+                    if (window.setLanguage) {
+                        window.setLanguage('bn');
+                    }
+                }, 500);
+            }
+        });
+    </script>
+    
+    <!-- Options Modal -->
+    <div class="options-modal">
+      <div class="options-content">
+        <div class="options-header">
+          <h3 data-original-text="Product Options">Product Options</h3>
+          <button class="close-btn">&times;</button>
+        </div>
+        <div class="options-body">
+          <!-- Content dynamically inserted by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Details Modal -->
+    <div class="product-details-modal">
+      <div class="product-details-content">
+        <div class="product-details-header">
+          <h3 data-original-text="Product Details">Product Details</h3>
+          <button class="close-btn">&times;</button>
+        </div>
+        <div class="product-details-body">
+          <div class="product-details-image">
+            <!-- Product image will be dynamically inserted here -->
+          </div>
+          <div class="product-details-info">
+            <h2 class="product-details-title"><!-- Product title will be inserted here --></h2>
+            <p class="product-details-price"><!-- Price will be inserted here --></p>
+            <p class="product-details-availability"><!-- Availability will be inserted here --></p>
+            <div class="product-details-description">
+              <h4 data-original-text="Description">Description</h4>
+              <p><!-- Product description will be inserted here --></p>
+            </div>
+            <div class="product-details-ingredients">
+              <h4 data-original-text="Ingredients">Ingredients</h4>
+              <p><!-- Product ingredients will be inserted here --></p>
+            </div>
+            <div class="product-details-nutrition">
+              <h4 data-original-text="Nutrition Facts">Nutrition Facts</h4>
+              <ul>
+                <!-- Nutrition facts will be inserted here -->
+              </ul>
+            </div>
+            <div class="product-details-actions">
+              <button class="options-btn" data-original-text="Choose options">Choose options</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extra Scripts -->
+    <script>
+        // Apply fix for options button on page load
+        window.addEventListener('load', function() {
+            if (typeof fixOptionButtons === 'function') {
+                console.log("Running options button fix from onload");
+                setTimeout(fixOptionButtons, 500);
+                
+                // Also fix buttons when language is changed
+                const langToggle = document.getElementById('language-toggle');
+                if (langToggle) {
+                    langToggle.addEventListener('change', function() {
+                        console.log("Language toggled, fixing buttons");
+                        setTimeout(fixOptionButtons, 500);
+                    });
+                }
+            }
+        });
+    </script>
+</body>
+</html> 
